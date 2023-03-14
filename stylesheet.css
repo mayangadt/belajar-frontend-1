@@ -1,0 +1,94 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Ketik code Anda di bawah */
+.header{
+  color: #fff;
+  background-color: #26d0c9;
+  height: 90px;
+}
+.logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
+
+.navbar li{
+  float: left;
+  padding: 33px 20px;
+}
+.awal{
+  margin: 100px 80px;
+}
+.awal h1{
+  font-size: 140px;
+}
+.awal h2{
+  font-size : 60px;
+}
+.awal span{
+  color: #ff4a4a;
+}
+.tengah {
+  height: 500px;
+  margin: 100px 80px;
+}
+.pembatas {
+  font-size : 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
+.tengah-item {
+  float: left;
+  margin-right: 40px;
+}
+.tengah-item p {
+  font-size: 24px;
+  padding-top: 30px;
+}
+.akhir{
+  margin: 100px 80px;
+}
+input, textarea{
+  width: 400px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 18px;
+  border: 1px solid  #dee7ec;
+}
+.akhir-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.footer{
+  background-color:#2f5167;
+  height: 120px;
+  color: #fff;
+  padding: 40px;
+}
+.logo-footer{
+  float: left;
+  font-size: 32px;
+}
+.menu-footer {
+  float: right;
+}
+.menu-footer li{
+    padding-bottom: 20px;
+}
